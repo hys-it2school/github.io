@@ -1,0 +1,132 @@
+* { margin: 0; padding: 0; outline:0; }
+
+body {
+    font-family: "Lucida Sans", Arial, Helvetica, sans-serif;
+	
+}
+
+
+#header {
+	background: black;
+	border-bottom: 3px solid #c40083;
+	height: 100px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#logo{
+	height: 80px;
+	padding: 10px;
+}
+#navigation {
+	float: right;
+	font-size: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	line-height: 20px;
+}
+.navitem {
+	display: inline;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.navitem-link{
+	text-decoration: none;
+	color: yellow;
+}
+
+#mainFirst{
+	font-size: 0;
+	background:white;
+
+}
+.mainFirst-left{
+	vertical-align: middle;
+	display: inline-block;
+	width: 40%;
+	font-size: 12px;
+	height: 100%;
+	color: black;
+	text-align: center;
+}
+.mainFirst-right{
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	width: 60%;
+	font-size: 12px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#main-image{
+	width: 100%;
+}
+
+
+#mainSecond{
+	font-size: 14px;
+			padding-left: 30px;
+	padding-right: 30px;
+		padding-bottom: 60px;
+		background-color:yellow;
+}
+#mainThree{
+	font-size: 0;
+		background-color:yellow;
+}
+.col-3{
+	float: left;
+	width: 33.33%;
+	box-sizing: border-box;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+h2{
+	color: red;
+	padding-bottom: 5px;
+	border-bottom: 4px solid #d2cdcd;
+	margin-bottom: 10px;
+	    font-size: 18px;
+}
+p.logo{
+	line-height: 20px;
+    display: inline-block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+#footer{
+	clear: both;
+	padding: 30px;
+	text-align: right;
+	font-size: 10px;
+	background:linear-gradient(to bottom,yellow, red, red, red);
+}
+
+	.mars {
+	color:red;
+    background-color:black;
+	font-family:cursive;
+}
+#sport{
+	background-color:yellow;
+	padding-left: 430px;
+	
+	
+}
+.clear{clear: both;}
+#okinawalogo{
+	width: 50%;
+}
+#gojuryu{
+	float: left;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.about{
+	padding-top: 50px;
+	font-size: 20px;
+	line-height: 18px;
+}
+
