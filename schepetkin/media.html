@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Огуречная фабрика</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="index.css" type="text/css" />
+</head>
+<body>
+<!-- Header -->
+<div id="header">
+	<img id='logo' src='logo.gif'>
+	<ul id="navigation">
+		<li class='navitem'>
+			<a href="index.html" class="navitem-link">Home</a>
+		</li>
+		<li class='navitem'>
+			<a href="about.html" class="navitem-link">About</a>
+		</li>
+		<li class='navitem'>
+			<a href="#" class="navitem-link">Media</a>
+		</li>
+	</ul>
+</div>
+<!-- End Header -->
+<!-- Main -->
+
+
+
+
+<div id="video12">
+  <iframe src="http://www.youtube.com/embed/R03y7GM75fc?rel=0" allowfullscreen="" frameborder="0"></iframe>
+  <div>
+    <img src="http://img.youtube.com/vi/R03y7GM75fc/1.jpg" tabindex="2" data-start="32" data-end="60"/>
+    <img src="http://img.youtube.com/vi/pCGsDrvU9pU/1.jpg" tabindex="2"/>
+    <img src="http://img.youtube.com/vi/Jr6Iw-P1wBs/1.jpg" tabindex="2"/>
+  </div>
+</div>
+
+<script>
+var IMG = document.querySelectorAll('#video12 img'),
+    IFRAME = document.querySelector('#video12 iframe');
+for (var i = 0; i < IMG.length; i++) {
+  IMG[i].onclick = function() {
+    var idIMG = this.src.replace(/http...img.youtube.com.vi.([\s\S]*?).1.jpg/g, '$1');
+    IFRAME.src = 'http://www.youtube.com/embed/' + idIMG + '?rel=0&autoplay=1';
+    if(this.dataset.end) IFRAME.src = IFRAME.src.replace(/([\s\S]*)/g, '$1&end=' + this.dataset.end);
+    if(this.dataset.start) IFRAME.src = IFRAME.src.replace(/([\s\S]*)/g, '$1&start=' + this.dataset.start);
+    this.style.backgroundColor='#555';
+  }
+}
+</script>
+
+<!-- End Main -->
+
+
+<!-- Footer -->
+<div id="footer">
+	<div class="shell">
+		<p class="right">
+			Copyright &copy; HYS Enterprise & IT2School 2017 | Valid CSS &amp; HTML | Design by Dima & Андрюша
+		</p>
+	</div>
+</div>
+<!-- End Footer -->
+</body>
+</html>
