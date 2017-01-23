@@ -7,10 +7,11 @@ a{
 	color:yellow;
 }
 .first{
-	display:inline-block;
+	    position: fixed;
+    width: 100%;
+	
 	background-image:url(./images/metaltexture7.jpg);
-	padding-top: 20px;
-	padding-bottom: 20px;
+
 }
 .second1{
 	background-color:yellow;
@@ -53,21 +54,32 @@ p{
 			}
 			a{
 				text-decoration: none;
+				color: black;
 			}
 			#logo{
 				width: 150px;
 			}
 			#menu{
+				
 				display:none;
 				font-size: 20px;
 				padding: 0px;
 				margin:0;
 				list-style: none;
-				padding: 20px 20px 15px 15px;
+				position: absolute;
+				background-image:url(./images/metaltexture7.jpg);
+				width: 250px;
+				box-sizing: border-box;
 			}
-			#menu2{
+			#menu2{padding: 0;
 				display:none;
 				list-style: none;
+				position: absolute;
+				background-image:url(./images/metaltexture7.jpg);
+				width: 250px;
+				box-sizing: border-box;
+				left: 250px;
+				margin-top: -30px;
 			}
 			
 			.first:hover #menu{
@@ -75,7 +87,7 @@ p{
 			}
 			#gadgets:hover #menu2{
 				display: block;
-			}
+			} 
 			
 			.gallery{
 				font-size: 0;
@@ -95,3 +107,41 @@ p{
 				margin-left: 100px;
 				margin-right: 100px;
 			}
+			
+			#test {
+				background-color: black;
+				position: fixed;
+				width: 320px;
+				top: 0;
+				height: 100%;
+				left: -320px;
+				
+				transition: all 0.2s;
+			}
+			#menuicon:checked+#test{
+				left: 0;
+			}
+			
+			#menu>li, #menu2>li{
+				    padding: 5px 10px;
+			}
+			#menu>li:hover, #menu2>li:hover{
+				    background-color: yellow;
+			}
+			 .main{
+				 padding-top:100px;
+			 }
+h1{
+	margin: 0;
+	text-align: center;
+	height: 100px;
+}
+h1 a{
+	display: inline-block;
+	float: left;
+}
+h1 span{
+	    display: inline-block;
+    color: yellow;
+        margin-top: 30px;
+}

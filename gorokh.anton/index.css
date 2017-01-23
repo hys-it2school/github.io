@@ -38,6 +38,9 @@ body {
 .history{
 	margin-left: 10px;
 	margin-right: 10px;
+	line-height: 24px;
+    font-style: italic;
+    font-family: cursive;
 }
 
 #mainFirst{
@@ -49,10 +52,10 @@ body {
 .mainFirst-left{
 	vertical-align: top;
 	display: inline-block;
-	width: 70%;
+	width: 100%;
 	font-size: 15px;
 	height: 100%;
-	padding: 10px;
+	
 	box-sizing: border-box;
 	color: white;
 }
@@ -62,7 +65,7 @@ body {
 .mainFirst-right{
 	vertical-align: top;
 	display: inline-block;
-	width: 30%;
+	width: 54%;
 	font-size: 12px;
 }
 #main-image{
@@ -111,23 +114,34 @@ width: 100%;
 width:100%;
 }
 #We4{
-width:100%;
+width:30%;
+float: right;
+margin-left: 10px;
 }
 
 #logo{
 	float: left;
 	margin-right: 10px;
 	margin-bottom: 10px;
+	margin-top: 10px;
+	    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
 }
 #fasad{
 	float: right;
 	max-width: 50%;
+	margin-left: 10px;
 }
 ol#work{
 	padding-left: 30px;
 	list-style: disc;
 }
-
+.mainFirst-center img{
+	float: left;
+}
+.brief{
+	padding: 10px;
+}
 
 
 
