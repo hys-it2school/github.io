@@ -1,0 +1,18 @@
+body{
+	
+}
+h1{
+	text-align: center;
+}
+ul{
+	font-size: 26px;
+}
+li{
+	padding: 5px;
+}
+a{
+	color: gray;
+}
+a:hover{
+	color: red;
+}
