@@ -1,0 +1,119 @@
+* { margin: 0; padding: 0; outline:0; }
+
+body {
+    font-family: "Lucida Sans", Arial, Helvetica, sans-serif;
+	background-color: gray;
+}
+
+
+#header {
+	background-color: black;
+	border-bottom: 3px solid black;
+	height: 100px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+}
+#logo{
+	height: 80px;
+	padding: 10px;
+	padding-right: center;
+}
+#navigation {
+	float: right;
+	font-size: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.navitem {
+	display: inline;
+	margin-left: 26px;
+	margin-right: 26px;
+}
+.navitem-link{
+	text-decoration: black;
+	color: black;
+}
+
+#mainFirst{
+	font-size: 0;
+	background: gray;
+	padding-top:center;
+}
+.mainFirst-left{
+	vertical-align: top;
+	display: inline-block;
+	width: 40%;
+	font-size: 12px;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	color: white;
+}
+.mainFirst-right{
+	vertical-align: center;
+	display: inline-block;
+	width: 60%;
+	font-size: 12px;
+}
+#main-image{
+	width: 100%;
+}
+#mainSecond{
+	font-size: 15px;
+	margin-top: 20px;
+	margin-bottom: 21px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom:centerl;
+}
+.col-3{
+	float: left;
+	width: 33.33%;
+	box-sizing: border-box;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+h2{
+	color: black;
+	padding-bottom: 5px;
+	border-bottom: 4px solid black;
+	margin-bottom: 10px;
+}
+p{
+	line-height: 28px;
+}
+#footer{
+	clear: both;
+	padding: 30px;
+	text-align: right;
+	font-size: 10px;
+	background-color: black;
+	color: white;
+}
+.clear{
+	clear: both;
+}
+#mainFirst{
+	position: relative;
+}
+.quoteblock{
+	position: absolute;
+	right: 0;
+	width: 50%;
+	top: 50%;
+	padding: 0 10px;
+	font-size: 20px;
+}
+#main-image{
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
